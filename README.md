@@ -10,7 +10,7 @@ are stored on Quickfix or location list.
 git clone https://github.com/retorillo/findinclude.vim ~/.vim/bundle/findinclude.vim
 ```
 
-# Usage
+## Usage
 
 ```viml
 :FindInclude vim-regular-expression
@@ -35,11 +35,11 @@ let g:findinclude#envsep = ':'
 
 " Vimgrep options ('g', 'i', or both)
 " Default value is '' (empty string)
-let g:findinclude#grepoption='gi'
+let g:findinclude#grepoption = 'gi'
 
 " Suffix that will be appended to glob-pattern for each directory
 " Default value is '**/*'.
-let g:findinclude#globsuffix='**/*.h'
+let g:findinclude#globsuffix = '**/*.h'
 
 " Use Location list instead of Quickfix
 " Default value is 0
