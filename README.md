@@ -38,8 +38,8 @@ let g:findinclude#envsep = ':'
 let g:findinclude#grepoption = 'gi'
 
 " Suffix that will be appended to glob-pattern for each directory
-" Default value is '**/*'.
-let g:findinclude#globsuffix = '**/*.h'
+" Default value is '**'.
+let g:findinclude#globsuffix = '**.h'
 
 " Use Location list instead of Quickfix
 " Default value is 0

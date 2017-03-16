@@ -13,7 +13,7 @@ if !exists('g:findinclude#grepoption')
   let g:findinclude#grepoption = ''
 endif
 if !exists('g:findinclude#globsuffix')
-  let g:findinclude#globsuffix = '**/*'
+  let g:findinclude#globsuffix = '**'
 endif
 if !exists('g:findinclude#uselocationlist')
   let g:findinclude#uselocationlist = 0
